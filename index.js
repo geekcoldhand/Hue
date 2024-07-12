@@ -28,7 +28,7 @@ function populateBoxesWithDelay(items) {
 
 function handleAddMetaData(e) {
    e.preventDefault();
-  window.open("https://huetheshop.com/");
+  window.open("https://soleboy.com/collections/shop-all");
 }
 
 function startDrag(moveClientX, moveClientY, index, item) {
