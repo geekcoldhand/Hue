@@ -93,6 +93,7 @@ const handleMouseMove = (e) => {
 
 const handleMouseUp = (e) => {
   e.preventDefault();
+  console.log(" fixing bug:", e.target?.id);
   console.log('mouse up item: ', e?.target?.classList);
   e?.target?.classList.add("shrink-on-drop");
   e?.target?.classList.remove("grow-on-drag");
@@ -103,7 +104,7 @@ const handleMouseUp = (e) => {
         //key.classList.add("")
       });
     }
-    if(!moved){
+    if(!moved && !e.target?.id){
       handleAddMetaData(e)
     }
     touchedOrClicked = false;
