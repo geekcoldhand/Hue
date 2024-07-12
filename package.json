@@ -1,0 +1,11 @@
+{
+  "name": "hue",
+  "version": "1.0.0",
+  "description": "A Hue webshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Horatious Harris II",
+  "license": "ISC"
+}
